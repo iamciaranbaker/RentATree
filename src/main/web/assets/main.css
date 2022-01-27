@@ -1,0 +1,36 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+footer {
+	margin-top: auto;
+}
+.carousel-item {
+	height: 300px;
+	overflow: hidden;
+	width: 100%;
+	background-color: black;
+	cursor: pointer;
+}
+.carousel-item img {
+	width: 100%;
+	opacity :0.5;
+}
+.basket-badge {
+	background-color: #ff3333;
+	color: white;
+	padding: 0 1.4px 0 1.4px;
+	border: 2px solid #ff3333;
+  	border-radius: 20px;
+  	text-align: center;
+}
+.table-vcenter {
+	vertical-align: middle;
+}
